@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colormain">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="223dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="418dp"
+        android:src="@drawable/profile_picture" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/profile_picture"
+
+        android:layout_marginBottom="-53dp">
+
+        <Button
+            android:id="@+id/overviewbtn"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+
+            android:background="@color/colorbtn"
+            android:text="Overview">
+
+        </Button>
+
+        <Button
+            android:id="@+id/meniubtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorbtn"
+            android:text="Menu">
+
+        </Button>
+
+        <Button
+            android:id="@+id/reviewbtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorbtn"
+            android:text="Reviews" >
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutbtn"
+        android:layout_marginTop="60dp"
+        android:text="@string/description"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/description"
+        android:layout_marginBottom="-105dp" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/nrlocuri"
+            android:textSize="18sp"
+            android:layout_marginTop="-8dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/nrlocuri2"
+            android:textSize="18sp">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@color/colorbtn"
+            android:text="-"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="75dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@color/colorbtn"
+            android:text="+"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Editprofile"
+            android:layout_width="128dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="-220dp"
+            android:layout_marginTop="65dp"
+            android:background="@color/colorbtn"
+            android:text="Edit Profile">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

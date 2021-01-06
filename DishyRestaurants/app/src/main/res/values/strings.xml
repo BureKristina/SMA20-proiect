@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dishy-Restaurants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="description">Atmosfera de odinioara, plina de traditie, din Zona Balcanilor, o puteti regasi acum si in Timisoara, la Restaurant Dinar! \nNe-am propus ca oaspetii care ne calca pragul sa aiba parte de o experienta autentica, specifica locului, si sa ramana cu o amintire deosebita!\n Este vorba despre titlul Quality Award, premiul de excelenta acordat pentru calitatea produselor si serviciilor in cadrul galei de la Madrid din 27 ianuarie 2014.\n    Cu respect pentru istorie si din dragoste pentru traditie, readucem pentru voi, aici in Timisoara, un colt din vremurile bune, in spiritul traditional balcanic.\n  Amenajat intr-un stil ce accentueaza frumusetea simpla a obiectelor folosite in vremuri de mult apuse, Restaurant Dinar Timisoara va invaluie cu liniste si caldura, din clipa in care ne pasiti pragul.Aici, cea mai mare bucurie a noastra este sa va avem ca oaspeti si sa va facem pe plac.\nVa asteptam cu drag!</string>
+    <string name="nrlocuri">Numar maxim de locuri disponibile: 50</string>
+    <string name="nrlocuri2">Numar de locuri ocupate: </string>
+    <string name="fooddes">Descriere\n\n
+Chiflã (110g), piept de pui (130 g), caşcaval, unt, salatã, roşii, castraveţi, ardei, ceapã sau ceapã prãjitã, diferite sosuri (Mustar 22Kcal,Kechup 21 Kcal, Majonez 92 Kcal, Sos bbq 22 Kcal, Sos hamburger 44 Kcal, Sos picant 18 Kcal, Sos usturoi 36 Kcal, Sos hrean ,24 Kcal, Tabasco 0.56 Kcal)\n
+500 Kcal 460-500 gr</string>
+</resources>
